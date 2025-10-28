@@ -158,7 +158,7 @@ const Index = () => {
                     <Badge variant="secondary" className="bg-purple-500/20 text-purple-300">GitLab CI</Badge>
                     <Badge variant="secondary" className="bg-purple-500/20 text-purple-300">Prometheus</Badge>
                   </div>
-                  <a href="https://hh.ru/vacancy/112345678" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors">
+                  <a href="https://hh.ru/vacancy/127022799?query=Инженер+по+развертыванию+и+сопровождению&hhtmFrom=vacancy_search_list" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors">
                     <Icon name="ExternalLink" className="mr-2" size={16} />
                     Похожая вакансия на hh.ru
                   </a>
