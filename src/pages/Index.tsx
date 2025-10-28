@@ -10,14 +10,14 @@ const Index = () => {
         <div className="max-w-6xl mx-auto text-center">
           <div className="mb-8 inline-block">
             <Badge className="bg-purple-500/20 text-purple-300 border-purple-500/50 px-4 py-2 text-sm">
-              Архитектор цифровых решений
+              Инженер по развертыванию и сопровождению ПО
             </Badge>
           </div>
           <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
             Максим Северов
           </h1>
           <p className="text-xl md:text-2xl text-slate-300 mb-12 max-w-3xl mx-auto">
-            Превращаю сложные бизнес-задачи в элегантные технологические решения
+            Обеспечиваю надежную работу и развертывание программных продуктов
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white">
@@ -40,17 +40,18 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 text-slate-300">
               <p className="text-lg leading-relaxed">
-                Родился в семье математиков в Санкт-Петербурге. С 12 лет увлекся программированием, 
-                создавая первые игры на Pascal. В 16 лет выиграл международную олимпиаду по информатике.
+                Родился в Москве. С 14 лет увлекся системным администрированием и автоматизацией. 
+                Первый опыт работы с серверами получил, помогая настраивать компьютерный класс в школе.
               </p>
               <p className="text-lg leading-relaxed">
-                После школы поступил в ИТМО на факультет информационных технологий. 
-                Параллельно с учебой запустил стартап по разработке мобильных приложений, 
-                который привлек первые инвестиции уже на втором курсе.
+                После школы поступил в МГТУ им. Баумана на факультет информатики и систем управления. 
+                С третьего курса начал работать DevOps-инженером в небольшой IT-компании, 
+                где получил первый практический опыт развертывания продуктов.
               </p>
               <p className="text-lg leading-relaxed">
-                За 8 лет профессионального пути работал с компаниями из США, Германии и Сингапура, 
-                создавая решения для fintech, e-commerce и медицинских технологий.
+                За 6 лет профессиональной карьеры прошел путь от младшего DevOps-инженера 
+                до специалиста по развертыванию и сопровождению, работая с проектами 
+                в e-commerce, финансовом секторе и EdTech.
               </p>
             </div>
             <div className="space-y-4">
@@ -60,9 +61,9 @@ const Index = () => {
                     <Icon name="GraduationCap" className="text-purple-400" size={24} />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg text-white mb-2">ИТМО, Санкт-Петербург</h3>
-                    <p className="text-slate-400 mb-1">Магистр компьютерных наук</p>
-                    <p className="text-slate-500 text-sm">2013-2019 • С отличием</p>
+                    <h3 className="font-bold text-lg text-white mb-2">МГТУ им. Баумана</h3>
+                    <p className="text-slate-400 mb-1">Бакалавр информатики и систем управления</p>
+                    <p className="text-slate-500 text-sm">2016-2020 • Красный диплом</p>
                   </div>
                 </div>
               </Card>
@@ -72,9 +73,9 @@ const Index = () => {
                     <Icon name="Award" className="text-pink-400" size={24} />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg text-white mb-2">Stanford Online</h3>
-                    <p className="text-slate-400 mb-1">Machine Learning Specialization</p>
-                    <p className="text-slate-500 text-sm">2020 • Сертификат с отличием</p>
+                    <h3 className="font-bold text-lg text-white mb-2">Яндекс.Практикум</h3>
+                    <p className="text-slate-400 mb-1">DevOps для эксплуатации и разработки</p>
+                    <p className="text-slate-500 text-sm">2021 • Диплом</p>
                   </div>
                 </div>
               </Card>
@@ -84,9 +85,9 @@ const Index = () => {
                     <Icon name="Trophy" className="text-blue-400" size={24} />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg text-white mb-2">AWS Certified</h3>
-                    <p className="text-slate-400 mb-1">Solutions Architect Professional</p>
-                    <p className="text-slate-500 text-sm">2021 • Сертификат активен</p>
+                    <h3 className="font-bold text-lg text-white mb-2">Certified Kubernetes</h3>
+                    <p className="text-slate-400 mb-1">Administrator (CKA)</p>
+                    <p className="text-slate-500 text-sm">2022 • Сертификат активен</p>
                   </div>
                 </div>
               </Card>
@@ -101,7 +102,7 @@ const Index = () => {
             Опыт и достижения
           </h2>
           <p className="text-center text-slate-400 mb-16 max-w-3xl mx-auto">
-            8+ лет создания digital-продуктов для бизнеса любого масштаба
+            6+ лет обеспечения стабильной работы и развертывания программных продуктов
           </p>
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="p-8 bg-slate-800/50 border-purple-500/30 backdrop-blur hover:border-purple-500/60 transition-all">
@@ -109,8 +110,8 @@ const Index = () => {
                 <div className="inline-flex p-4 bg-purple-500/20 rounded-full mb-4">
                   <Icon name="Rocket" className="text-purple-400" size={32} />
                 </div>
-                <h3 className="text-4xl font-bold text-white mb-2">50+</h3>
-                <p className="text-slate-400">Запущенных проектов</p>
+                <h3 className="text-4xl font-bold text-white mb-2">35+</h3>
+                <p className="text-slate-400">Развернутых проектов</p>
               </div>
             </Card>
             <Card className="p-8 bg-slate-800/50 border-purple-500/30 backdrop-blur hover:border-purple-500/60 transition-all">
@@ -118,8 +119,8 @@ const Index = () => {
                 <div className="inline-flex p-4 bg-pink-500/20 rounded-full mb-4">
                   <Icon name="Users" className="text-pink-400" size={32} />
                 </div>
-                <h3 className="text-4xl font-bold text-white mb-2">2M+</h3>
-                <p className="text-slate-400">Активных пользователей</p>
+                <h3 className="text-4xl font-bold text-white mb-2">99.9%</h3>
+                <p className="text-slate-400">Uptime систем</p>
               </div>
             </Card>
             <Card className="p-8 bg-slate-800/50 border-purple-500/30 backdrop-blur hover:border-purple-500/60 transition-all">
@@ -127,8 +128,8 @@ const Index = () => {
                 <div className="inline-flex p-4 bg-blue-500/20 rounded-full mb-4">
                   <Icon name="Star" className="text-blue-400" size={32} />
                 </div>
-                <h3 className="text-4xl font-bold text-white mb-2">98%</h3>
-                <p className="text-slate-400">Удовлетворенность клиентов</p>
+                <h3 className="text-4xl font-bold text-white mb-2">24/7</h3>
+                <p className="text-slate-400">Техническая поддержка</p>
               </div>
             </Card>
           </div>
@@ -142,20 +143,21 @@ const Index = () => {
                 <div className="flex-1">
                   <div className="flex justify-between items-start mb-3">
                     <div>
-                      <h3 className="text-2xl font-bold text-white">Lead Architect</h3>
-                      <p className="text-purple-400">TechVision Solutions • Сан-Франциско</p>
+                      <h3 className="text-2xl font-bold text-white">Инженер по развертыванию и сопровождению</h3>
+                      <p className="text-purple-400">СберТех • Москва</p>
                     </div>
-                    <span className="text-slate-500">2021-2024</span>
+                    <span className="text-slate-500">2022-2024</span>
                   </div>
                   <p className="text-slate-300 mb-4">
-                    Руководил командой из 15 разработчиков. Спроектировал микросервисную архитектуру 
-                    для fintech-платформы с обработкой 100K+ транзакций в день. Сократил время развертывания на 60%.
+                    Настройка и поддержка CI/CD процессов для 12 микросервисов. Автоматизация развертывания 
+                    в Kubernetes. Мониторинг и обеспечение отказоустойчивости систем с нагрузкой 50K+ RPS. 
+                    Сокращение времени деплоя с 2 часов до 15 минут.
                   </p>
                   <div className="flex gap-2 flex-wrap">
                     <Badge variant="secondary" className="bg-purple-500/20 text-purple-300">Kubernetes</Badge>
-                    <Badge variant="secondary" className="bg-purple-500/20 text-purple-300">GraphQL</Badge>
-                    <Badge variant="secondary" className="bg-purple-500/20 text-purple-300">PostgreSQL</Badge>
-                    <Badge variant="secondary" className="bg-purple-500/20 text-purple-300">React</Badge>
+                    <Badge variant="secondary" className="bg-purple-500/20 text-purple-300">Docker</Badge>
+                    <Badge variant="secondary" className="bg-purple-500/20 text-purple-300">GitLab CI</Badge>
+                    <Badge variant="secondary" className="bg-purple-500/20 text-purple-300">Prometheus</Badge>
                   </div>
                 </div>
               </div>
@@ -169,20 +171,21 @@ const Index = () => {
                 <div className="flex-1">
                   <div className="flex justify-between items-start mb-3">
                     <div>
-                      <h3 className="text-2xl font-bold text-white">Senior Full-Stack Developer</h3>
-                      <p className="text-pink-400">Digital Innovations • Берлин</p>
+                      <h3 className="text-2xl font-bold text-white">DevOps-инженер</h3>
+                      <p className="text-pink-400">Яндекс.Маркет • Москва</p>
                     </div>
-                    <span className="text-slate-500">2019-2021</span>
+                    <span className="text-slate-500">2020-2022</span>
                   </div>
                   <p className="text-slate-300 mb-4">
-                    Создал e-commerce платформу с AI-рекомендациями, увеличившую конверсию на 40%. 
-                    Разработал систему real-time аналитики для 50K+ одновременных пользователей.
+                    Развертывание и сопровождение инфраструктуры e-commerce проекта. Настройка мониторинга 
+                    и алертинга с помощью Prometheus и Grafana. Миграция legacy-приложений в контейнеры. 
+                    Автоматизация резервного копирования и восстановления данных.
                   </p>
                   <div className="flex gap-2 flex-wrap">
-                    <Badge variant="secondary" className="bg-pink-500/20 text-pink-300">Node.js</Badge>
-                    <Badge variant="secondary" className="bg-pink-500/20 text-pink-300">Python</Badge>
-                    <Badge variant="secondary" className="bg-pink-500/20 text-pink-300">MongoDB</Badge>
-                    <Badge variant="secondary" className="bg-pink-500/20 text-pink-300">Redis</Badge>
+                    <Badge variant="secondary" className="bg-pink-500/20 text-pink-300">Ansible</Badge>
+                    <Badge variant="secondary" className="bg-pink-500/20 text-pink-300">Terraform</Badge>
+                    <Badge variant="secondary" className="bg-pink-500/20 text-pink-300">PostgreSQL</Badge>
+                    <Badge variant="secondary" className="bg-pink-500/20 text-pink-300">Grafana</Badge>
                   </div>
                 </div>
               </div>
@@ -206,10 +209,10 @@ const Index = () => {
                   <Icon name="Code" className="text-purple-400" size={28} />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-2">Разработка с нуля</h3>
+                  <h3 className="text-2xl font-bold text-white mb-2">Развертывание инфраструктуры</h3>
                   <p className="text-slate-400">
-                    Full-stack разработка веб-приложений, мобильных приложений и SaaS-платформ. 
-                    Современный стек технологий и лучшие практики индустрии.
+                    Настройка CI/CD pipeline, контейнеризация приложений, развертывание в Kubernetes. 
+                    Автоматизация процессов с помощью Ansible, Terraform и GitLab CI.
                   </p>
                 </div>
               </div>
@@ -221,10 +224,10 @@ const Index = () => {
                   <Icon name="GitBranch" className="text-pink-400" size={28} />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-2">Архитектура систем</h3>
+                  <h3 className="text-2xl font-bold text-white mb-2">Мониторинг и поддержка</h3>
                   <p className="text-slate-400">
-                    Проектирование масштабируемых архитектур, рефакторинг legacy-кода, 
-                    оптимизация производительности и миграция в облако.
+                    Настройка систем мониторинга (Prometheus, Grafana, ELK). Обеспечение высокой 
+                    доступности сервисов. Оперативное реагирование на инциденты 24/7.
                   </p>
                 </div>
               </div>
@@ -236,10 +239,10 @@ const Index = () => {
                   <Icon name="Brain" className="text-blue-400" size={28} />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-2">AI интеграции</h3>
+                  <h3 className="text-2xl font-bold text-white mb-2">Оптимизация и масштабирование</h3>
                   <p className="text-slate-400">
-                    Внедрение машинного обучения и искусственного интеллекта: 
-                    чат-боты, рекомендательные системы, анализ данных.
+                    Настройка автомасштабирования приложений. Оптимизация использования ресурсов. 
+                    Миграция монолитов в микросервисную архитектуру.
                   </p>
                 </div>
               </div>
@@ -251,10 +254,10 @@ const Index = () => {
                   <Icon name="HeartHandshake" className="text-green-400" size={28} />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-2">Техническое консультирование</h3>
+                  <h3 className="text-2xl font-bold text-white mb-2">Консультирование по DevOps</h3>
                   <p className="text-slate-400">
-                    Аудит кода, выбор технологического стека, обучение команды, 
-                    помощь в масштабировании бизнеса.
+                    Аудит инфраструктуры, выбор инструментов для CI/CD, обучение команд 
+                    best practices DevOps, помощь в переходе на контейнеризацию.
                   </p>
                 </div>
               </div>
@@ -273,10 +276,10 @@ const Index = () => {
               <div className="inline-flex p-4 bg-purple-500/20 rounded-full mb-6">
                 <Icon name="Shield" className="text-purple-400" size={36} />
               </div>
-              <h3 className="text-xl font-bold text-white mb-3">Гарантия качества</h3>
+              <h3 className="text-xl font-bold text-white mb-3">Надежность систем</h3>
               <p className="text-slate-400">
-                Покрываю код тестами на 90%+, использую CI/CD, 
-                предоставляю документацию и гарантию на 6 месяцев.
+                Гарантирую uptime 99.9%. Настраиваю резервирование и отказоустойчивость. 
+                Документирую все процессы и предоставляю техподдержку.
               </p>
             </div>
 
@@ -284,10 +287,10 @@ const Index = () => {
               <div className="inline-flex p-4 bg-pink-500/20 rounded-full mb-6">
                 <Icon name="Clock" className="text-pink-400" size={36} />
               </div>
-              <h3 className="text-xl font-bold text-white mb-3">Точные сроки</h3>
+              <h3 className="text-xl font-bold text-white mb-3">Быстрое развертывание</h3>
               <p className="text-slate-400">
-                Использую Agile-методологии с еженедельными спринтами. 
-                95% проектов сдаю в срок или раньше.
+                Автоматизирую процессы развертывания. Средний срок настройки 
+                CI/CD для проекта - 3-5 дней. 90% релизов без даунтайма.
               </p>
             </div>
 
@@ -295,10 +298,10 @@ const Index = () => {
               <div className="inline-flex p-4 bg-blue-500/20 rounded-full mb-6">
                 <Icon name="LineChart" className="text-blue-400" size={36} />
               </div>
-              <h3 className="text-xl font-bold text-white mb-3">Фокус на бизнес</h3>
+              <h3 className="text-xl font-bold text-white mb-3">Экономия ресурсов</h3>
               <p className="text-slate-400">
-                Не просто пишу код - решаю бизнес-задачи. 
-                Помогаю увеличить прибыль и масштабировать продукт.
+                Оптимизирую инфраструктуру для снижения затрат. 
+                Помогаю сократить расходы на серверы в среднем на 30-40%.
               </p>
             </div>
 
@@ -308,8 +311,8 @@ const Index = () => {
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Современный стек</h3>
               <p className="text-slate-400">
-                Работаю с новейшими технологиями: React, Next.js, Node.js, 
-                Python, TypeScript, AWS, Docker.
+                Работаю с актуальными инструментами: Kubernetes, Docker, 
+                GitLab CI, Ansible, Terraform, Prometheus, Grafana.
               </p>
             </div>
 
@@ -317,10 +320,10 @@ const Index = () => {
               <div className="inline-flex p-4 bg-orange-500/20 rounded-full mb-6">
                 <Icon name="Headphones" className="text-orange-400" size={36} />
               </div>
-              <h3 className="text-xl font-bold text-white mb-3">24/7 Поддержка</h3>
+              <h3 className="text-xl font-bold text-white mb-3">Круглосуточный мониторинг</h3>
               <p className="text-slate-400">
-                Всегда на связи в рабочие часы, оперативно отвечаю на вопросы, 
-                предоставляю техподдержку после запуска.
+                Настраиваю систему алертов и дежурств. Реагирую на инциденты 
+                в течение 15 минут. Предоставляю отчеты о работе систем.
               </p>
             </div>
 
