@@ -190,7 +190,7 @@ const Index = () => {
                     <Badge variant="secondary" className="bg-pink-500/20 text-pink-300">PostgreSQL</Badge>
                     <Badge variant="secondary" className="bg-pink-500/20 text-pink-300">Nginx</Badge>
                   </div>
-                  <a href="https://hh.ru/vacancy/98765432" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-pink-400 hover:text-pink-300 transition-colors">
+                  <a href="https://hh.ru/vacancy/126708351?utm_medium=cpc_hh&utm_source=clickmehhru&utm_campaign=1057998&utm_local_campaign=1522036&utm_content=1104453" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-pink-400 hover:text-pink-300 transition-colors">
                     <Icon name="ExternalLink" className="mr-2" size={16} />
                     Похожая вакансия на hh.ru
                   </a>
