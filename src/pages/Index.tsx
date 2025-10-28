@@ -8,23 +8,23 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
       <section className="min-h-screen flex items-center justify-center px-4 py-20">
         <div className="max-w-6xl mx-auto text-center">
-          <div className="mb-8 inline-block">
+          <div className="mb-8 inline-block animate-fade-in">
             <Badge className="bg-purple-500/20 text-purple-300 border-purple-500/50 px-4 py-2 text-sm">
               Инженер по развертыванию и сопровождению ПО
             </Badge>
           </div>
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
+          <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent animate-fade-in-up">
             Максим Северов
           </h1>
-          <p className="text-xl md:text-2xl text-slate-300 mb-12 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-slate-300 mb-12 max-w-3xl mx-auto animate-fade-in-up" style={{animationDelay: '0.2s'}}>
             Обеспечиваю надежную работу и развертывание программных продуктов
           </p>
-          <div className="flex gap-4 justify-center flex-wrap">
-            <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white">
+          <div className="flex gap-4 justify-center flex-wrap animate-fade-in-up" style={{animationDelay: '0.4s'}}>
+            <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white hover:scale-105 transition-transform">
               <Icon name="Mail" className="mr-2" size={20} />
               Связаться
             </Button>
-            <Button size="lg" variant="outline" className="border-purple-500 text-purple-300 hover:bg-purple-500/10">
+            <Button size="lg" variant="outline" className="border-purple-500 text-purple-300 hover:bg-purple-500/10 hover:scale-105 transition-transform">
               <Icon name="ArrowDown" className="mr-2" size={20} />
               Узнать больше
             </Button>
@@ -38,24 +38,23 @@ const Index = () => {
             Моя история
           </h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6 text-slate-300">
+            <div className="space-y-6 text-slate-300 animate-slide-in-left">
               <p className="text-lg leading-relaxed">
-                Родился в Москве. С 14 лет увлекся системным администрированием и автоматизацией. 
-                Первый опыт работы с серверами получил, помогая настраивать компьютерный класс в школе.
+                Родился в Москве. После школы поступил в МГТУ им. Баумана на факультет информатики и систем управления. 
+                Во время учебы увлекся автоматизацией процессов и системным администрированием.
               </p>
               <p className="text-lg leading-relaxed">
-                После школы поступил в МГТУ им. Баумана на факультет информатики и систем управления. 
-                С третьего курса начал работать DevOps-инженером в небольшой IT-компании, 
-                где получил первый практический опыт развертывания продуктов.
+                С третьего курса начал стажировку в IT-компании, где получил первый опыт работы 
+                с серверами и системами мониторинга. Защитил диплом по теме автоматизации развертывания приложений.
               </p>
               <p className="text-lg leading-relaxed">
-                За 6 лет профессиональной карьеры прошел путь от младшего DevOps-инженера 
-                до специалиста по развертыванию и сопровождению, работая с проектами 
-                в e-commerce, финансовом секторе и EdTech.
+                За 4 года профессиональной работы получил опыт в настройке CI/CD, 
+                работе с контейнерами и оркестрацией в Kubernetes. Сейчас развиваю навыки 
+                в облачных технологиях и автоматизации инфраструктуры.
               </p>
             </div>
-            <div className="space-y-4">
-              <Card className="p-6 bg-slate-800/50 border-purple-500/30 backdrop-blur">
+            <div className="space-y-4 animate-slide-in-right" style={{animationDelay: '0.2s'}}>
+              <Card className="p-6 bg-slate-800/50 border-purple-500/30 backdrop-blur hover:border-purple-500/60 transition-all">
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-purple-500/20 rounded-lg">
                     <Icon name="GraduationCap" className="text-purple-400" size={24} />
@@ -67,7 +66,7 @@ const Index = () => {
                   </div>
                 </div>
               </Card>
-              <Card className="p-6 bg-slate-800/50 border-purple-500/30 backdrop-blur">
+              <Card className="p-6 bg-slate-800/50 border-purple-500/30 backdrop-blur hover:border-pink-500/60 transition-all">
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-pink-500/20 rounded-lg">
                     <Icon name="Award" className="text-pink-400" size={24} />
@@ -79,7 +78,7 @@ const Index = () => {
                   </div>
                 </div>
               </Card>
-              <Card className="p-6 bg-slate-800/50 border-purple-500/30 backdrop-blur">
+              <Card className="p-6 bg-slate-800/50 border-purple-500/30 backdrop-blur hover:border-blue-500/60 transition-all">
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-blue-500/20 rounded-lg">
                     <Icon name="Trophy" className="text-blue-400" size={24} />
@@ -99,10 +98,10 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-            Опыт и достижения
+            Опыт работы
           </h2>
           <p className="text-center text-slate-400 mb-16 max-w-3xl mx-auto">
-            6+ лет обеспечения стабильной работы и развертывания программных продуктов
+            4+ года практического опыта в развертывании и сопровождении программных продуктов
           </p>
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="p-8 bg-slate-800/50 border-purple-500/30 backdrop-blur hover:border-purple-500/60 transition-all">
@@ -110,7 +109,7 @@ const Index = () => {
                 <div className="inline-flex p-4 bg-purple-500/20 rounded-full mb-4">
                   <Icon name="Rocket" className="text-purple-400" size={32} />
                 </div>
-                <h3 className="text-4xl font-bold text-white mb-2">35+</h3>
+                <h3 className="text-4xl font-bold text-white mb-2">20+</h3>
                 <p className="text-slate-400">Развернутых проектов</p>
               </div>
             </Card>
@@ -135,7 +134,7 @@ const Index = () => {
           </div>
 
           <div className="mt-16 space-y-6">
-            <Card className="p-8 bg-slate-800/50 border-purple-500/30 backdrop-blur">
+            <Card className="p-8 bg-slate-800/50 border-purple-500/30 backdrop-blur hover:shadow-lg hover:shadow-purple-500/20 transition-all">
               <div className="flex items-start gap-6">
                 <div className="p-4 bg-purple-500/20 rounded-lg shrink-0">
                   <Icon name="Building2" className="text-purple-400" size={28} />
@@ -149,21 +148,25 @@ const Index = () => {
                     <span className="text-slate-500">2022-2024</span>
                   </div>
                   <p className="text-slate-300 mb-4">
-                    Настройка и поддержка CI/CD процессов для 12 микросервисов. Автоматизация развертывания 
-                    в Kubernetes. Мониторинг и обеспечение отказоустойчивости систем с нагрузкой 50K+ RPS. 
-                    Сокращение времени деплоя с 2 часов до 15 минут.
+                    Настройка и поддержка CI/CD процессов для микросервисов. Автоматизация развертывания 
+                    в Kubernetes. Мониторинг систем с помощью Prometheus и Grafana. 
+                    Участие в миграции приложений в контейнеры.
                   </p>
-                  <div className="flex gap-2 flex-wrap">
+                  <div className="flex gap-2 flex-wrap mb-4">
                     <Badge variant="secondary" className="bg-purple-500/20 text-purple-300">Kubernetes</Badge>
                     <Badge variant="secondary" className="bg-purple-500/20 text-purple-300">Docker</Badge>
                     <Badge variant="secondary" className="bg-purple-500/20 text-purple-300">GitLab CI</Badge>
                     <Badge variant="secondary" className="bg-purple-500/20 text-purple-300">Prometheus</Badge>
                   </div>
+                  <a href="https://hh.ru/vacancy/112345678" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors">
+                    <Icon name="ExternalLink" className="mr-2" size={16} />
+                    Похожая вакансия на hh.ru
+                  </a>
                 </div>
               </div>
             </Card>
 
-            <Card className="p-8 bg-slate-800/50 border-purple-500/30 backdrop-blur">
+            <Card className="p-8 bg-slate-800/50 border-purple-500/30 backdrop-blur hover:shadow-lg hover:shadow-pink-500/20 transition-all">
               <div className="flex items-start gap-6">
                 <div className="p-4 bg-pink-500/20 rounded-lg shrink-0">
                   <Icon name="Zap" className="text-pink-400" size={28} />
@@ -171,22 +174,26 @@ const Index = () => {
                 <div className="flex-1">
                   <div className="flex justify-between items-start mb-3">
                     <div>
-                      <h3 className="text-2xl font-bold text-white">DevOps-инженер</h3>
-                      <p className="text-pink-400">Яндекс.Маркет • Москва</p>
+                      <h3 className="text-2xl font-bold text-white">Системный администратор</h3>
+                      <p className="text-pink-400">IT-Решения Плюс • Москва</p>
                     </div>
                     <span className="text-slate-500">2020-2022</span>
                   </div>
                   <p className="text-slate-300 mb-4">
-                    Развертывание и сопровождение инфраструктуры e-commerce проекта. Настройка мониторинга 
-                    и алертинга с помощью Prometheus и Grafana. Миграция legacy-приложений в контейнеры. 
-                    Автоматизация резервного копирования и восстановления данных.
+                    Администрирование Linux-серверов. Настройка систем мониторинга и бэкапов. 
+                    Поддержка работы веб-приложений и баз данных. Написание скриптов для автоматизации 
+                    рутинных задач. Участие в проектах по переходу на контейнеризацию.
                   </p>
-                  <div className="flex gap-2 flex-wrap">
-                    <Badge variant="secondary" className="bg-pink-500/20 text-pink-300">Ansible</Badge>
-                    <Badge variant="secondary" className="bg-pink-500/20 text-pink-300">Terraform</Badge>
+                  <div className="flex gap-2 flex-wrap mb-4">
+                    <Badge variant="secondary" className="bg-pink-500/20 text-pink-300">Linux</Badge>
+                    <Badge variant="secondary" className="bg-pink-500/20 text-pink-300">Bash</Badge>
                     <Badge variant="secondary" className="bg-pink-500/20 text-pink-300">PostgreSQL</Badge>
-                    <Badge variant="secondary" className="bg-pink-500/20 text-pink-300">Grafana</Badge>
+                    <Badge variant="secondary" className="bg-pink-500/20 text-pink-300">Nginx</Badge>
                   </div>
+                  <a href="https://hh.ru/vacancy/98765432" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-pink-400 hover:text-pink-300 transition-colors">
+                    <Icon name="ExternalLink" className="mr-2" size={16} />
+                    Похожая вакансия на hh.ru
+                  </a>
                 </div>
               </div>
             </Card>
